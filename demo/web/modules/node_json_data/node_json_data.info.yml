@@ -1,0 +1,7 @@
+name: Node JSON Data
+description: Configuration Form which accept the Api Key
+package: Custom
+type: module
+version: 1.0
+core_version_requirement: ^8 || ^9
+configure: node_json_data.admin_settings

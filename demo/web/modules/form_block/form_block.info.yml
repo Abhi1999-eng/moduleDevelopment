@@ -1,0 +1,7 @@
+name: Form Block
+description: Form Block Assignment 3
+package: Custom
+type: module
+version: 1.0
+core_version_requirement: ^8 || ^9
+

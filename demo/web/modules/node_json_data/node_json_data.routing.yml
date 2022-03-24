@@ -1,0 +1,15 @@
+node_json_data.admin_settings:
+  path: '/admin/config/content/json-data'
+  defaults:
+    _form: '\Drupal\node_json_data\Form\ApiKeyForm'
+    _title: 'Simple Configuration'
+  requirements:
+    _permission: 'access content'
+
+node_json_data.apiKey:
+  path: '/data/{api}/{nid}'
+  defaults:
+    _controller: '\Drupal\node_json_data\Controller\ShowJsonDataController::showData'
+    _title: 'Json Data'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: Speaker Form
+description: A form to add speakers to summit and to create speakers if they are not.
+core_version_requirement: ^8 || ^9
+type: module
+package: custom

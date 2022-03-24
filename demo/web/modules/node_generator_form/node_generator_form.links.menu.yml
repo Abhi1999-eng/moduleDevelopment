@@ -1,0 +1,6 @@
+node_generator_form.create_nodes:
+  title: Generate Nodes
+  description: Generate nodes
+  route_name: node_generator_form.createNodes
+  weight: 2
+  menu_name: main
